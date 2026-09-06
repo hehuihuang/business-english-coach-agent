@@ -1,0 +1,39 @@
+# Secrets and local environment overrides
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+htmlcov/
+.coverage*
+
+# Runtime data
+backend/data/*.db
+backend/data/*.db-*
+backend/data/uploads/
+*.log
+
+# Node / frontend build
+node_modules/
+frontend/dist/
+*.tsbuildinfo
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/
+
+# Local certificates and backups
+*.pem
+*.key
+*.crt
+*.bak
+*.dump
